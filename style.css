@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+main{
+    width: 300px;
+    height: fit-content;
+    margin: 20px auto;
+    background-color: #0C0C0C;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+    color: #FCFCFC;
+    margin: 20px;
+}
+
+#container{
+    text-align: center;
+}
+
+hr{
+    margin: 10px auto;
+}
+
+#display{
+    width: 250px;
+    height: 50px;
+    text-align: right;
+    font-size: 18px;
+    background-color: #524f4f;
+    color: #FCFCFC;
+}
+
+.button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 18px;
+    border: none;
+    margin: 2px;
+    background-color: #323131;
+    font-weight: bold;
+}
+
+.white{
+    color: #FCFCFC;
+}
+
+.green{
+    color: #045819;
+}
+
+.delete{
+    color: #4e0808;
+}
+
+.equal-sign{
+    background-color: #045819;
+    color: #FCFCFC;
+}
