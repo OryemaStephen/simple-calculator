@@ -38,6 +38,7 @@ hr{
     color: #FCFCFC;
 }
 
+
 .button{
     width: 60px;
     height: 60px;
@@ -54,11 +55,11 @@ hr{
 }
 
 .green{
-    color: #045819;
+    color: #06972a;
 }
 
 .delete{
-    color: #4e0808;
+    color: #df1d1d;
 }
 
 .equal-sign{
