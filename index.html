@@ -1,43 +1,41 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <main>
-            <h2>Calculator</h2>
-            <div id="container">
-                <input type="text" id="display">   
-                <hr>  
-                <div id="keys">
-                    <input type="button" value="C" onclick='inputValue("")' class="button delete">
-                    <input type="button" value="^" onclick="input('**')" class="button green">
-                    <input type="button" value="%" onclick="input('%')" class="button green">
-                    <input type="button" value="/" onclick="input('/')" class="button green">
-                    <input type="button" value="7" onclick="input('7')" class="button white">
-                    <input type="button" value="8" onclick="input('8')" class="button white">
-                    <input type="button" value="9" onclick="input('9')" class="button white">
-                    <input type="button" value="x" onclick="input('*')" class="button green">
-                    <input type="button" value="4" onclick="input('4')" class="button white">
-                    <input type="button" value="5" onclick="input('5')" class="button white">
-                    <input type="button" value="6" onclick="input('6')" class="button white">
-                    <input type="button" value="-" onclick="input('-')" class="button green">
-                    <input type="button" value="1" onclick="input('1')" class="button white">
-                    <input type="button" value="2" onclick="input('2')" class="button white">
-                    <input type="button" value="3" onclick="input('3')" class="button white">
-                    <input type="button" value="+" onclick="input('+')" class="button green">
-                    <input type="button" value="+/-" onclick="input('+/-')" class="button white">
-                    <input type="button" value="0" onclick="input('0')" class="button white">
-                    <input type="button" value="." onclick="input('.')" class="button white">
-                    <input type="button" value="=" onclick="calculate()" class="button green equal-sign">
-                </div>           
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <main>
+        <div id="container">
+            <input type="text" id="display" readonly><br>
+            <input type="text" id="user-input">
+            <div id="buttons">
+                <input type="button" class="ac" value="AC">
+                <input type="button" class="del" value="DEL">
+                <input type="button" class="percent" value="%">
+                <input type="button" class="button op" value="/">
+                <input type="button" class="button" value="7">
+                <input type="button" class="button" value="8">
+                <input type="button" class="button" value="9">
+                <input type="button" class="button op" value="*">
+                <input type="button" class="button" value="4">
+                <input type="button" class="button" value="5">
+                <input type="button" class="button" value="6">
+                <input type="button" class="button op" value="-">
+                <input type="button" class="button" value="1">
+                <input type="button" class="button" value="2">
+                <input type="button" class="button" value="3">
+                <input type="button" class="button op" value="+">
+                <input type="button" class="button" value="0">
+                <input type="button" class="button" value=".">
+                <input type="button" class="equal op" id="equal" value="=">
             </div>
-        </main>        
-        <script src="app.js" async defer></script>
-    </body>
+        </input>
+    </main>
+    
+    
+    <script src="app.js"></script>
+</body>
 </html>
